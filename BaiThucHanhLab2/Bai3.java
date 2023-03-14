@@ -11,7 +11,6 @@ public class Bai3 {
         System.out.println("Nhập năm sinh: ");
         year = scanner.nextInt();
          
-        // Xác định độ tuổi tương ứng
         age = 2023 - year;  // 2023 là năm hiện tại
         if (age < 16) {
             ageGroup = "vị thành niên.";
